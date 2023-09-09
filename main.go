@@ -29,7 +29,7 @@ func handleGetSubmissionDetails(c *gin.Context) {
 		SlackName:     slack_name,
 		Track:         track,
 		CurrentDay:    utc_time.Weekday().String(),
-		UtcTime:       utc_time.Format("2023-09-02T15:04:05Z"),
+		UtcTime:       utc_time.Format("2006-01-02T15:04:05Z"),
 		GithubFileUrl: "https://github.com/Hussein-miracle/hng-go-BE-task-1/blob/master/main.go",
 		GithubRepoUrl: "https://github.com/Hussein-miracle/hng-go-BE-task-1",
 		StatusCode:    200,
